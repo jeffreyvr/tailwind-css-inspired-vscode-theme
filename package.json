@@ -1,0 +1,21 @@
+{
+    "name": "tailwind-css-vsc-theme",
+    "displayName": "Tailwind CSS VSC Theme",
+    "description": "Inspired by the syntax highlighting used on the Tailwind CSS documentation and play.tailwind.com.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tailwind CSS VSC Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Tailwind-CSS-VSC-color-theme.json"
+            }
+        ]
+    }
+}
